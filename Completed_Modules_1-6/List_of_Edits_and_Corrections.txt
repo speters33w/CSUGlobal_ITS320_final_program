@@ -1,0 +1,11 @@
+ITS320_CTA1_Option2.py No Change
+
+ITS320_CTA2_Option1.py Changed to have more user friendly console output.
+
+ITS320_CTA3_Option2.py No Change
+
+ITS320_CTA4_Option1.py No Change
+
+ITS320_CTA5.Option2.py Modified so it doesn't require the from typing import Tuple, Any import.
+
+ITS320_CTA6_Option1.py Modified to a completely inherited class of complex, with only a str() override.

@@ -1,0 +1,189 @@
+Microsoft Windows [Version 10.0.19044.2486]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>cd C:\OneDrive\Python\ITS320_Final\
+
+C:\OneDrive\Python\ITS320_Final>C:\OneDrive\Python\ITS320_Final\venv\Scripts\python.exe C:\OneDrive\Python\ITS320_Final\main.py
+Welcome to PropertyMinder!
+Please select a database file.
+
+You selected C:/OneDrive/Python/ITS320_Final/small_sample.csv
+Reading database.
+0 Dunn Station Rd, Prosperity, PA, 15329. 1800, Single Family, Under Contract
+1057 Dunn Station Rd, Prosperity, PA, 15329. 0, Lot/Land, Under Contract
+838 Dillie Rd, Prosperity, PA, 15329. 6200, Single Family, Sold
+The city for this property does not match city in zip code database:
+893 Dillie Rd, Sycamore, PA, 15329
+Enter 0 to retain Sycamore
+Enter 1 to use Prosperity
+? 0
+893 Dillie Rd, Sycamore, PA, 15329. 0, Lot/Land, Sold
+Processed 4 lines.
+
+Address: 0 Dunn Station Rd, Prosperity, Pennsylvania, 15329, Square Feet: 1800, Home Style: Single Family, Sales Status: Under Contract
+Address: 1057 Dunn Station Rd, Prosperity, Pennsylvania, 15329, Square Feet: 0, Home Style: Lot/Land, Sales Status: Under Contract
+Address: 838 Dillie Rd, Prosperity, Pennsylvania, 15329, Square Feet: 6200, Home Style: Single Family, Sales Status: Sold
+Address: 893 Dillie Rd, Sycamore, Pennsylvania, 15329, Square Feet: 0, Home Style: Lot/Land, Sales Status: Sold
+Use the following selections to edit, add, or delete a property:
+
+        1: Add a new property
+        2: Remove an existing property
+        3: Update an existing property
+        P: Print the current database
+        S: Save the updated database
+        Q: Quit PropertyMinder
+
+?: 1
+Enter the full address or the property. Use 0 for a street number if raw property:
+Use format: 123 Main Street, Middletown, PA, 17057
+2112 Browns Creek Road, Nineveh, PA 15337
+Enter the approximate square footage of homes on the property.
+Use 0 for raw property:
+1800
+Enter the property type of the property (Single Family, Multi Family, Lot/Land, Condo).
+Single Family
+Enter the sales status of the property (Available, Sold, under Contract).
+Sold
+The city for this property does not match city in zip code database:
+2112 Browns Creek Road, Nineveh, PA 15337
+Enter 0 to retain Nineveh
+Enter 1 to use Graysville
+? 1
+Use the following selections to edit, add, or delete a property:
+
+        1: Add a new property
+        2: Remove an existing property
+        3: Update an existing property
+        P: Print the current database
+        S: Save the updated database
+        Q: Quit PropertyMinder
+
+?: p
+Address: 0 Dunn Station Rd, Prosperity, Pennsylvania, 15329, Square Feet: 1800, Home Style: Single Family, Sales Status: Under Contract
+Address: 1057 Dunn Station Rd, Prosperity, Pennsylvania, 15329, Square Feet: 0, Home Style: Lot/Land, Sales Status: Under Contract
+Address: 838 Dillie Rd, Prosperity, Pennsylvania, 15329, Square Feet: 6200, Home Style: Single Family, Sales Status: Sold
+Address: 893 Dillie Rd, Sycamore, Pennsylvania, 15329, Square Feet: 0, Home Style: Lot/Land, Sales Status: Sold
+Address: 2112 Browns Creek Road, Graysville, Pennsylvania, 15337, Square Feet: 1800, Home Style: Single Family, Sales Status: Sold
+Use the following selections to edit, add, or delete a property:
+
+        1: Add a new property
+        2: Remove an existing property
+        3: Update an existing property
+        P: Print the current database
+        S: Save the updated database
+        Q: Quit PropertyMinder
+
+?: 2
+REMOVE PROPERTY
+
+OOPS! Enter any invalid entry to go back without deleting anything.
+Enter part of the street address, house number at minimum. Use 0 for raw land with no house number.
+838
+Match found!
+ Address: 838 Dillie Rd, Prosperity, Pennsylvania, 15329, Square Feet: 6200, Home Style: Single Family, Sales Status: Sold
+
+REMOVED
+
+ Address: 838 Dillie Rd, Prosperity, Pennsylvania, 15329, Square Feet: 6200, Home Style: Single Family, Sales Status: Sold
+
+from database.
+
+Use the following selections to edit, add, or delete a property:
+
+        1: Add a new property
+        2: Remove an existing property
+        3: Update an existing property
+        P: Print the current database
+        S: Save the updated database
+        Q: Quit PropertyMinder
+
+?: 3
+UPDATE PROPERTY
+
+OOPS! Enter any invalid entry to go back without changing anything.
+Enter part of the street address, house number at minimum. Use 0 for raw land with no house number.
+893
+Match found!
+ Address: 893 Dillie Rd, Sycamore, Pennsylvania, 15329, Square Feet: 0, Home Style: Lot/Land, Sales Status: Sold
+<class 'property.Property'>
+Use the following selections to edit the address, square footage, type, or sales status of a property:
+
+        1: Update street address
+        2: Update city
+        3: Update State
+        4: Update zip code
+        5: Update square footage
+        6: Update property type
+        7: Update sales status
+
+        Any other key exits the update menu
+
+?: 2
+Enter the updated city:
+Prosperity
+Use the following selections to edit the address, square footage, type, or sales status of a property:
+
+        1: Update street address
+        2: Update city
+        3: Update State
+        4: Update zip code
+        5: Update square footage
+        6: Update property type
+        7: Update sales status
+
+        Any other key exits the update menu
+
+?: 7
+Enter the updated sales status (Available, Sold, under Contract):
+Under Contract
+Use the following selections to edit the address, square footage, type, or sales status of a property:
+
+        1: Update street address
+        2: Update city
+        3: Update State
+        4: Update zip code
+        5: Update square footage
+        6: Update property type
+        7: Update sales status
+
+        Any other key exits the update menu
+
+?: p
+Use the following selections to edit, add, or delete a property:
+
+        1: Add a new property
+        2: Remove an existing property
+        3: Update an existing property
+        P: Print the current database
+        S: Save the updated database
+        Q: Quit PropertyMinder
+
+?: p
+Address: 0 Dunn Station Rd, Prosperity, Pennsylvania, 15329, Square Feet: 1800, Home Style: Single Family, Sales Status: Under Contract
+Address: 1057 Dunn Station Rd, Prosperity, Pennsylvania, 15329, Square Feet: 0, Home Style: Lot/Land, Sales Status: Under Contract
+Address: 2112 Browns Creek Road, Graysville, Pennsylvania, 15337, Square Feet: 1800, Home Style: Single Family, Sales Status: Sold
+Address: 893 Dillie Rd, Prosperity, Pennsylvania, 15329, Square Feet: 0, Home Style: Lot/Land, Sales Status: Under Contract
+Use the following selections to edit, add, or delete a property:
+
+        1: Add a new property
+        2: Remove an existing property
+        3: Update an existing property
+        P: Print the current database
+        S: Save the updated database
+        Q: Quit PropertyMinder
+
+?: s
+Use the following selections to edit, add, or delete a property:
+
+        1: Add a new property
+        2: Remove an existing property
+        3: Update an existing property
+        P: Print the current database
+        S: Save the updated database
+        Q: Quit PropertyMinder
+
+?: q
+Save the database? (y/n)
+?: n
+
+C:\OneDrive\Python\ITS320_Final>
